@@ -28,3 +28,18 @@ tags: [Machine Learning, Weka]
 
 * Vì được chạy trên Java, nên đầu tiên bạn cần cài đặt Java trước nhé. Bạn có thể tham khảo cách cài đặt Java ở đây: https://java.com/en/download/help/download_options.xml
 
+### 2. Cách load Dataset cho Machine Learning
+
+* Weka được thiết kế để load data với định dạng ARFF. Nó tương tự như CSV nhưng thêm loại của mỗi đối tượng đối tượng (với CSV là cột)
+
+* Sau khi bạn cài đặt, thì Weka đã để sẵn một số file data mẫu theo định dạng ARFF trong thư mục `data`.
+
+* Weka cũng hỗ trợ load data theo định dạng CSV và convert sang định dạng ARFF khi cần thiết. Bạn có thể tìm thêm data theo định dạng CSV tại đây: http://archive.ics.uci.edu/ml/index.php
+
+* Cách load Dataset trên Weka:
+
+  * Đầu tiên, mở ứng dụng Weka
+
+  * Click button `Explorer`
+
+  * Click `Open file...` và tìm đến file data bạn muốn load lên. như vậy là xong rồi nhé.
