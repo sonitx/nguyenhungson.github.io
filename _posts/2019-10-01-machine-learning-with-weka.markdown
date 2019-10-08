@@ -52,7 +52,7 @@ tags: [Machine Learning, Weka]
 
 * Sau khi download về, bạn load dataset như bước 2 nha. Bạn sẽ thấy các thông tin cơ bản của data như sau:
 
-  ![]({% site.path-static %}weka-1.png)
+  ![](/assets/img/weka-1.png)
 
   * Thống kê của dataset (Current relation) gồm: Tên của relation, số lượng data (Intances), số lượng thuộc tính (attributes)
 
